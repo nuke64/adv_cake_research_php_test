@@ -15,7 +15,7 @@
 
 //------------------------------------------------------------------------------------------------------------------------------------------------
 function revertCharacters($s) { // NOTE: UNICODE only
-    $offset = 2; // because of UNICODE
+    	$offset = 2; // because of UNICODE
     
 	$size = strlen($s);
 
@@ -76,13 +76,13 @@ function revertCharacters($s) { // NOTE: UNICODE only
 function main(){
 
 	$texts = array(
-    			// TEST #1 original test text
-    			mb_convert_encoding("Привет! Давно не виделись.", 'UTF-16LE', 'UTF-8'), 
+    		// TEST #1 original test text
+    		mb_convert_encoding("Привет! Давно не виделись.", 'UTF-16LE', 'UTF-8'), 
                 // TEST #2 Check for many repating punctuation characters (?!., )
-				mb_convert_encoding("Привет!...Давно не виделись, КОЗЁЛ!!!!! Что!!! Я???   Да!Ты, Лысый!!!Я тебя завалю! ",'UTF-16LE', 'UTF-8'),
+		mb_convert_encoding("Привет!...Давно не виделись, КОЗЁЛ!!!!! Что!!! Я???   Да!Ты, Лысый!!!Я тебя завалю! ",'UTF-16LE', 'UTF-8'),
                 // TEST #3
-				mb_convert_encoding("улыбок тебе дед макар! :)))",'UTF-16LE', 'UTF-8')  
-				);	 
+		mb_convert_encoding("улыбок тебе дед макар! :)))",'UTF-16LE', 'UTF-8')  
+	);	 
                 
     echo "\n";
                 
