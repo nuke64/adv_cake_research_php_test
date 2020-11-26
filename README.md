@@ -1,7 +1,6 @@
 # adv_cake_research_php_test
 Тестовое задание на вакансию Junior PHP Developer
 
-PHP-версия
 Автор: Звеков Алексей
 
 Алгоритм был создан на https://www.tutorialspoint.com/execute_php_online.php поэтому
