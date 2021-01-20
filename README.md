@@ -1,6 +1,7 @@
 # problems
 
 Автор: Звеков Алексей
+Алгоритм переворачивает все слова в строке, не трогая знаки препинания.
 
 Алгоритм был создан на https://www.tutorialspoint.com/execute_php_online.php поэтому
 и запускать его надо по этой ссылке, , также запускался в https://paiza.io/en/projects/new?language=php
